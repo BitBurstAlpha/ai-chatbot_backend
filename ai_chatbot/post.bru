@@ -1,0 +1,27 @@
+meta {
+  name: post
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://192.168.0.17:5001/chat
+  body: json
+  auth: none
+}
+
+headers {
+  : 
+}
+
+body:json {
+  {
+    "input": "what is your name"
+  }
+}
+
+docs {
+  {
+    "input": "hello"
+  }
+}
